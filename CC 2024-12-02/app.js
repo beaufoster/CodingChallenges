@@ -5,7 +5,11 @@
 // [1, 2, 3] --> [2, 4, 6]
 
 function double(array){
-    return array.map(num => num * 2)
+    if(array.length === 0){
+        console.log('Invalid Error')
+    }else{
+        return array.map(num => num * 2)
+    }
 }
 
 console.log(double([1,2,3]))

@@ -6,3 +6,11 @@
 
 // Example:
 // move(3, 6) should equal 15
+
+
+const move = (position, roll) => 2*roll + position
+
+
+console.log(move(3,6), 15)
+console.log(move(0,4), 8)
+console.log(move(2,5), 12)

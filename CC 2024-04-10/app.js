@@ -19,4 +19,6 @@ function getCount(str) {
 
   }
 
+
+
   console.log(getCount("abracadabra"), 5)

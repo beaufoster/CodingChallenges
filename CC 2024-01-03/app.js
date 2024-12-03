@@ -10,3 +10,11 @@ function reverse(number){
 }
 
 console.log(reverse(35231))
+
+
+// git method to update github and backdate
+// git add.
+// git commit -m 'Add coding challenge from month-day-year'
+// git commit --amend --date='year-month-day'
+// escape, :wq
+// git push
